@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaithra | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Outfit', sans-serif; }
+    .hero-bg { background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') no-repeat center center/cover; }
+    .bg-gradient { background: linear-gradient(135deg, rgba(99, 102, 241, 0.8), rgba(126, 140, 255, 0.8)); }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md p-4 flex justify-between items-center sticky top-0 z-10">
+    <h1 class="text-2xl font-bold text-indigo-600">Chaithra</h1>
+    <ul class="flex space-x-4 text-sm">
+      <li><a href="#about" class="hover:text-indigo-500">About</a></li>
+      <li><a href="#skills" class="hover:text-indigo-500">Skills</a></li>
+      <li><a href="#projects" class="hover:text-indigo-500">Projects</a></li>
+      <li><a href="#education" class="hover:text-indigo-500">Education</a></li>
+      <li><a href="#Experience"class="hover:text-indigo-500">Experience</a></li>
+      <li><a href="#contact" class="hover:text-indigo-500">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-bg text-white text-center py-32">
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Chaithra </h2>
+    <p class="text-xl">Aspiring Machine Learning and Data Science Enthusiast</p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="p-10 bg-white text-center">
+    <h2 class="text-3xl font-bold text-indigo-600 mb-4">About Me</h2>
+    <p class="max-w-2xl mx-auto text-lg">I’m a Artificial Intelligence and Machine Learning graduate with strong foundations in Python, Machine Learning, and Web Development. I enjoy building intelligent systems and modern user experiences through practical and creative work.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-10 bg-gradient-to-r from-indigo-100 to-purple-100">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-indigo-700 mb-6">Skills</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-sm">
+        <div class="bg-white p-4 rounded shadow">Python</div>
+        <div class="bg-white p-4 rounded shadow">C</div>
+        <div class="bg-white p-4 rounded shadow">MySQL</div>
+        <div class="bg-white p-4 rounded shadow">Scikit-learn</div>
+        <div class="bg-white p-4 rounded shadow">HTML/CSS</div>
+        <div class="bg-white p-4 rounded shadow">Pandas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-14 bg-gradient-to-r from-blue-100 to-teal-100">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-indigo-600 mb-10">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-gray-50 rounded-lg shadow p-6">
+          <img src="C:\Users\CHAITHRA\OneDrive\Desktop\portfolio\img\ECOM.jpg"class="rounded mb-4" alt="Recommendation System">
+          <h3 class="font-bold text-lg mb-2">Product Recommendation System</h3>
+          <p class="text-sm text-gray-600">E-commerce platform using ML techniques (collaborative + content-based) to suggest products. Built with Flask, SQLite, and interactive UI.</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg shadow p-6">
+          <img src="C:\Users\CHAITHRA\OneDrive\Desktop\portfolio\img\CODE.jpg" class="rounded mb-4" alt="Recruiter Management">
+          <h3 class="font-bold text-lg mb-2">Recruiter Management System</h3>
+          <p class="text-sm text-gray-600">A system designed for managing and tracking job applicants, resumes, and recruitment processes. It features a database-driven UI for efficient management.</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg shadow p-6">
+          <img src="C:\Users\CHAITHRA\OneDrive\Desktop\portfolio\img\PDF.jpg" class="rounded mb-4" alt="Langchain PDF">
+          <h3 class="font-bold text-lg mb-2">Automatic Interactive PDF using Langchain</h3>
+          <p class="text-sm text-gray-600">Automates the creation of interactive PDFs using the Langchain library, streamlining document generation for business processes.</p>
+        </div>
+        <div class="bg-gray-50 rounded-lg shadow p-6">
+          <img src="C:\Users\CHAITHRA\OneDrive\Desktop\portfolio\img\TRAFFIC.jpg" class="rounded mb-4" alt="Traffic Management">
+          <h3 class="font-bold text-lg mb-2">Traffic Management using YOLO</h3>
+          <p class="text-sm text-gray-600">A computer vision-based project that uses YOLO (You Only Look Once) to manage traffic flow efficiently and detect congestion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-10 bg-indigo-50 text-center">
+    <h2 class="text-3xl font-bold text-indigo-700 mb-4">Education</h2>
+    <p class="text-lg">B.E in AI and ML<br/>Shri Madhwa Vadhiraja Institute of Technology & Management, Bantakal</p>
+  </section>
+
+  <!-- Experience (Internship) -->
+<section id="experience" class="py-10 bg-white text-center">
+  <h2 class="text-3xl font-bold text-indigo-600 mb-6">Experience</h2>
+  <div class="flex flex-wrap justify-center gap-6">
+    <div class="w-full sm:w-64 bg-gradient-to-r from-indigo-200 to-blue-200 p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+      <h3 class="text-xl font-semibold text-indigo-700 mb-2">Web Development Intern</h3>
+      <p class="text-sm text-gray-600">Udupi Web Solutions</p>
+      <p class="text-sm text-gray-600 mt-2">Developed and maintained websites, gained hands-on experience in HTML, CSS. Collaborated with the team to create responsive and user-friendly interfaces.</p>
+    </div>
+    <div class="w-full sm:w-64 bg-gradient-to-r from-green-200 to-teal-200 p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300">
+      <h3 class="text-xl font-semibold text-green-700 mb-2">AI & DS Intern</h3>
+      <p class="text-sm text-gray-600">DLithe Services Pvt Ltd</p>
+      <p class="text-sm text-gray-600 mt-2">Worked on data preprocessing and machine learning model development. Gained experience in Python, Data Science, and AI methodologies. Collaborated on real-world projects and contributed to the development of AI models.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-10 bg-gradient-to-r from-indigo-100 to-purple-100 text-center">
+    <h2 class="text-3xl font-bold text-indigo-700 mb-4">Contact Me</h2>
+    <p class="mb-2">Email: <a href="mailto:chaithrab459@gmail.com" class="text-indigo-600">chaithrab459@gmail.com</a></p>
+    <p class="mb-2">Location: Udupi</p>
+    <p><a href="https://www.linkedin.com/in/chaithra-b-462344281" target="_blank" class="text-indigo-600">LinkedIn Profile</a></p>
+  </section>
+
+</body>
+</html>
